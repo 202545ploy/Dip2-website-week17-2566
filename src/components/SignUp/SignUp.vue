@@ -20,7 +20,7 @@ const userForm = reactive({
     address: "",
 });
 
-const rules = computed(() => {
+const rules = computed(() => {  
     return {
         fname: { required },
         lname: { required },
